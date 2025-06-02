@@ -1,0 +1,49 @@
+<ion-header translucent="true">
+<div class="logo-docya">
+  <span>Doc<span>Ya</span></span>
+</div>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="tab1-content ">
+  <div class="logo-container">
+     
+   
+  </div>
+ <h1>¡Bienvenido!</h1>
+  <p class="subtitle">
+    Selecciona tu tipo de usuario para comenzar
+  </p>
+
+ <ion-button
+  expand="block"
+  size="large"
+  color="secondary"
+  (click)="irATab2()"
+>
+  <ion-icon slot="start" name="person-circle-outline"></ion-icon>
+  Soy Paciente
+</ion-button>
+
+
+  <ion-button expand="block" size="large" color="primary" routerLink="/tabs/tab3" routerDirection="root">
+    <ion-icon slot="start" name="people-circle-outline"></ion-icon>
+    Cuidador
+  </ion-button>
+  <div class="divider"><span>O continúa con</span></div>
+
+  <div class="social-buttons">
+    <ion-button fill="outline" color="primary" shape="round">
+      <ion-icon slot="icon-only" name="logo-google"></ion-icon>
+    </ion-button>
+    <ion-button fill="outline" color="primary" shape="round">
+      <ion-icon slot="icon-only" name="logo-facebook"></ion-icon>
+    </ion-button>
+    <ion-button fill="outline" color="primary" shape="round">
+      <ion-icon slot="icon-only" name="logo-apple"></ion-icon>
+    </ion-button>
+  </div>
+
+  <p class="register-text">
+    ¿No tienes una cuenta? <a routerLink="/registro">Regístrate</a>
+  </p>
+</ion-content>

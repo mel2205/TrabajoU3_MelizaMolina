@@ -1,0 +1,129 @@
+.tab1-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 16px;
+  text-align: center;
+  --background: #fff;
+}
+
+.logo-container {
+  margin-top: 60px;
+  margin-bottom: 24px;
+  width: 120px;
+  height: 120px;
+}
+.logo-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 60px;
+  background: var(--ion-color-primary);
+  padding: 12px;
+}
+
+h1 {
+  font-size: 1.8rem;
+  margin: 0;
+  color: var(--ion-color-dark);
+}
+.subtitle {
+  margin: 4px 0 24px;
+  color: var(--ion-color-medium);
+}
+
+.btn-paciente,
+.btn-cuidador {
+  margin-bottom: 16px;
+  --border-radius: 8px;
+  --padding-start: 16px;
+  --padding-end: 16px;
+  font-size: 1rem;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin: 24px 0;
+  color: var(--ion-color-medium);
+}
+.divider::before,
+.divider::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: var(--ion-color-medium);
+}
+.divider span {
+  padding: 0 8px;
+  font-size: 0.85rem;
+}
+
+.social-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+.social-buttons ion-button {
+  width: 48px;
+  height: 48px;
+  --border-radius: 24px;
+  --padding: 0;
+  --inner-padding: 0;
+}
+.social-buttons ion-icon {
+  color: var(--ion-color-primary);
+  font-size: 1.4rem;
+}
+
+
+.register-text {
+  font-size: 0.9rem;
+  color: var(--ion-color-medium);
+  margin-bottom: 32px;
+}
+.register-text a {
+  color: var(--ion-color-primary);
+  font-weight: 600;
+}
+.logo-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;   // separación desde el toolbar
+}
+
+.logo-circle {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: var(--ion-color-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #fff;
+}
+.logo-docya {
+  width: 120px;    /* Más grande */
+  height: 120px;   /* Más grande */
+  background: #2196f3;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 12px auto;
+  box-shadow: 0 2px 8px rgba(33,150,243,0.10);
+  font-size: 2.2em;      /* Más grande, acorde al círculo */
+  font-weight: bold;
+  color: #fff;
+  border: 2px solid #2196f3;
+
+  span {
+    color: #fff;
+  }
+}
+
+

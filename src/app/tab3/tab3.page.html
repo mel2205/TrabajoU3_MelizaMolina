@@ -1,0 +1,70 @@
+<ion-header>
+  <ion-toolbar color="primary" class="profile-toolbar">
+    <div class="profile-header">
+      <ion-icon name="person-circle" class="profile-avatar"></ion-icon>
+      <div class="profile-info">
+        <div class="profile-name">José Aguilera</div>
+        <div class="profile-role">75 años - Paciente</div>
+      </div>
+    </div>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="tab3-content">
+
+  <!-- Signos vitales -->
+  <div class="vitals-grid">
+    <div class="vital-card">
+      <div class="vital-value">120/80</div>
+      <div class="vital-label">Presión</div>
+    </div>
+    <div class="vital-card">
+      <div class="vital-value">72</div>
+      <div class="vital-label">Pulso</div>
+    </div>
+    <div class="vital-card">
+      <div class="vital-value">98%</div>
+      <div class="vital-label">Oxígeno</div>
+    </div>
+    <div class="vital-card">
+      <div class="vital-value">36.5°</div>
+      <div class="vital-label">Temperatura</div>
+    </div>
+  </div>
+
+  <!-- Medicamentos de hoy -->
+  <div class="section-title">
+    <ion-icon name="medkit-outline"></ion-icon>
+    <span>Medicamentos de Hoy</span>
+  </div>
+  <div class="meds-card">
+    <div class="med-row">
+      <div>
+        <div class="med-name">Enalapril 10mg</div>
+        <div class="med-time">8:00 AM</div>
+      </div>
+      <div class="med-status tomado">Tomado</div>
+    </div>
+    <div class="med-row">
+      <div>
+        <div class="med-name">Metformina 850mg</div>
+        <div class="med-time">14:00 PM</div>
+      </div>
+      <div class="med-status pendiente">Pendiente</div>
+    </div>
+  </div>
+
+  <!-- Alertas recientes -->
+  <div class="section-title">
+    <ion-icon name="notifications-outline"></ion-icon>
+    <span>Alertas Recientes</span>
+  </div>
+  <div class="alert-card">
+    <ion-icon name="alert-circle" class="alert-icon"></ion-icon>
+    <div>
+      <div class="alert-title">Presión arterial elevada</div>
+      <div class="alert-time">Hace 30 minutos</div>
+    </div>
+  </div>
+
+</ion-content>

@@ -1,0 +1,39 @@
+<ion-header>
+  <div class="logo-docya">
+  <span>Doc<span>Ya</span></span>
+</div>
+  <ion-toolbar color="primary" class="header-toolbar">
+    <div class="header-content">
+      <div class="header-title">Hola, Juan</div>
+      <div class="header-subtitle">Jueves, 27 Abril</div>
+    </div>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="dashboard-content">
+
+  <div class="menu-grid">
+    <div class="menu-item" routerLink="/videoconsulta">
+      <ion-icon name="videocam"></ion-icon>
+      <div>Video Consulta</div>
+    </div>
+    <div class="menu-item" routerLink="/medicinas">
+      <ion-icon name="medkit"></ion-icon>
+      <div>Mis Medicinas</div>
+    </div>
+    <div class="menu-item" routerLink="/midoctor">
+      <ion-icon name="person"></ion-icon>
+      <div>Mi Doctor</div>
+    </div>
+    <div class="menu-item" routerLink="/citas">
+      <ion-icon name="calendar"></ion-icon>
+      <div>Mis Citas</div>
+    </div>
+  </div>
+
+  <div class="emergency-button" routerLink="/emergencia">
+    <ion-icon name="warning-outline"></ion-icon>
+    <span>Emergencia</span>
+  </div>
+
+</ion-content>
